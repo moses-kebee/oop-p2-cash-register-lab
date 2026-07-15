@@ -38,7 +38,7 @@ class CashRegister:
         """Apply the register's discount as a percentage off the total."""
         if self.discount > 0:
             self.total -= self.total * (self.discount / 100)
-            print(f"Total after discount: {self.total}")
+            print(f"After the discount, the total comes to ${self.total}.")
         else:
             print("There is no discount to apply.")
 
